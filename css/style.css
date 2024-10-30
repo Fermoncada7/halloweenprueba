@@ -1,0 +1,111 @@
+:root {
+    --text-color: #999;
+    --title-color: #29373c;
+    --faq-bg: #f9faf2;
+    --footer-bg: #f49f28;
+}
+
+body {
+    font-family: 'Nanum Pen Script', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+	color: var(--title-color);
+}
+
+h3{
+	color: var(--title-color);
+}
+
+
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: transparent; 
+    z-index: 10; 
+}
+.header .logo {
+    font-family: 'Shojumaru', cursive;
+    font-size: 24px;
+    color: var(--title-color);
+}
+
+.header nav a {
+    color: var(--text-color);
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url("../img/bg-hero.png"); /* Replace with the hero background image path */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'Shojumaru', cursive;
+    font-size: 48px;
+    color: #f49f28;
+}
+
+.hero-subtitle span {
+    color: #f49f28;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.countdown div {
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+#offer {
+    padding: 60px 0;
+}
+
+#offer h3 {
+    color: var(--title-color);
+}
+
+#faq {
+    background-color: var(--faq-bg);
+    padding: 40px;
+}
+
+#faq-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#faq button {
+    margin-top: 20px;
+}
+
+.customer-service {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--footer-bg);
+    color: #000;
+    padding: 20px;
+}
+
+.footer p a {
+    color: #fff;
+    text-decoration: underline;
+}
